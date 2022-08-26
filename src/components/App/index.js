@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import NameBox from '../NameBox';
 
 function App() {
   return (
     <div className="App">
+      <NameBox />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
