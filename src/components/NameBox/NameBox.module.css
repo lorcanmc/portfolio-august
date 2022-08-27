@@ -22,6 +22,29 @@
     /* border: 5px dotted red; */
 }
 
+.button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  background-color: rgb(140, 245, 236);
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 20%;
+  height: 15%;
+  animation: aButton 3s linear infinite;
+  
+}
+@keyframes aButton {
+  50% {
+    opacity: 0.5;
+  }
+}
+
 
 
 
