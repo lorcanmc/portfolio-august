@@ -13,11 +13,10 @@ export default function ProjectDisplay() {
               window.open("https://animle.netlify.app/", "_blank");
             }}
           >
-            <video
-              width="100%"
-              src="videos/animle.mp4"
-              autoPlay
-              muted
+            <img
+              className={styles.gif}
+              src="/videos/animle.gif"
+              alt="alotify"
             />
             <div className={styles.hoverGraphic}>
               <h2>Animle</h2>
@@ -34,8 +33,6 @@ export default function ProjectDisplay() {
             <img
               className={styles.gif}
               src="/videos/alotify.gif"
-              // autoPlay
-              // muted
               alt="alotify"
             />
             <div className={styles.hoverGraphic}>
