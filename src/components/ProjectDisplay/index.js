@@ -21,10 +21,18 @@ export default function ProjectDisplay() {
             <div className={styles.hoverGraphic}>
               <h2>Animle</h2>
             </div>
+            <button
+              onClick={() => {
+                window.open("https://github.com/lorcanmc/WordleIdea", "_blank");
+              }}
+              className={styles.githubLogo}
+            >
+              <img width="20px" src="./images/github.png" alt="github logo"/>
+            </button>
           </button>
         </div>
         <div className={styles.projectColumn}>
-        <button
+          <button
             className={styles.button}
             onClick={() => {
               window.open("https://alotify-app.netlify.app/", "_blank");
@@ -38,9 +46,16 @@ export default function ProjectDisplay() {
             <div className={styles.hoverGraphic}>
               <h2>Alotify</h2>
             </div>
+            <button
+              onClick={() => {
+                window.open("https://github.com/lorcanmc/SpotifyItunesClone", "_blank");
+              }}
+              className={styles.githubLogo}
+            >
+              <img className={styles.githubLogoImage} width="20px" src="./images/github.png"  alt="github logo" />
+            </button>
           </button>
         </div>
-
       </div>
     </div>
   );
