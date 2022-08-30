@@ -31,11 +31,12 @@ export default function ProjectDisplay() {
               window.open("https://alotify-app.netlify.app/", "_blank");
             }}
           >
-            <video
-              width="100%"
-              src="/videos/alotify.mp4"
-              autoPlay
-              muted
+            <img
+              className={styles.gif}
+              src="/videos/alotify.gif"
+              // autoPlay
+              // muted
+              alt="alotify"
             />
             <div className={styles.hoverGraphic}>
               <h2>Alotify</h2>
