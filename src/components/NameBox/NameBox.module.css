@@ -1,14 +1,9 @@
 .NameBox {
     width: 100%;
-    background-color: transparent;
-}
-
-.container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
     padding: 2vw;
 }
 
@@ -45,11 +40,8 @@
   }
 }
 
-
-
-
 .letterColor {
-  background-color: rgb(209, 243, 200);
+  background-color: rgb(205, 245, 231);
 }
 
 .left {
