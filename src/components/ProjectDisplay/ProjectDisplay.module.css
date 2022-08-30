@@ -5,11 +5,10 @@
 .ProjectDisplay {
     display: flex;
     margin: 10px auto;
-    /* padding: 20px; */
 }
 
 .projectColumn {
-    border: 1px black solid;
+    /* border: 1px black solid; */
     width: 50%;
     margin: 2vw;;
 }
@@ -39,27 +38,20 @@
     right: 0%;
     height: 20%;
     color: white;
-    opacity: 0.8;
     text-align: center;
     background-color: black;
 
 }
 .button:hover .hoverGraphic {
     background-color: #1f283b;
+    opacity: 0.6;
 }
 
-.hoverGraphic2 {
-    position: absolute;
-    bottom: 25%;
-    left: 0%;
-    right: 0%;
-    height: 20%;
+.whiteBackground {
     color: white;
-    opacity: 0.8;
-    text-align: center;
-    background-color: black;
+    background-color: white;
 
 }
-.button:hover .hoverGraphic2 {
-    background-color: white;
+.button:hover .whiteBackground {
+    /* background-color: white; */
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProjectDisplay.module.css";
+
 export default function ProjectDisplay() {
   return (
     <div className={styles.ProjectSection}>
@@ -30,12 +31,13 @@ export default function ProjectDisplay() {
               window.open("https://alotify-app.netlify.app/", "_blank");
             }}
           >
-            <img
+            <video
               width="100%"
-              src="/images/alotify.png"
-              
+              src="/videos/alotify.mp4"
+              autoPlay
+              muted
             />
-            <div className={styles.hoverGraphic2}>
+            <div className={styles.hoverGraphic}>
               <h2>Alotify</h2>
             </div>
           </button>
