@@ -27,7 +27,7 @@ export default function ProjectDisplay() {
               }}
               className={styles.githubLogo}
             >
-              <img width="20px" src="./images/github.png" alt="github logo"/>
+              <img className={styles.githubLogoImage} width="20px" src="./images/github.png" alt="github logo"/>
             </button>
           </button>
         </div>
